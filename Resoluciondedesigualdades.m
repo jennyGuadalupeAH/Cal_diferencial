@@ -25,3 +25,14 @@ x=[-0:3]
 subplot(2,2,1)
 plot(x,x)
 disp('.')
+%Inecuaciones de secgundo grado con incognita 
+'(inecuaciones de  segundo  grado  con una incognita)'
+% Ineciaciones de segundo grado
+disp('Inecuaciones de segundo grado')
+disp('x^2+2<6')
+a=2;
+b=6;
+syms x
+solve(x^2+a<b)
+x=[-2:2]
+plot(x,x)
