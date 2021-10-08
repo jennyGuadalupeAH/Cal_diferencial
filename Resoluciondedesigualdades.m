@@ -41,3 +41,19 @@ solve(x^2+a<b)
 x=[-2:2]
 plot(x,x)
 disp('.')
+
+% Inecuaciones de segundo grado de valor absoluto 
+disp('Inecuaciones de segundo grado')
+disp('Valor absoluto')
+disp('x^2+5<=3')
+a=5;
+b=3;
+syms x
+solve(x^+a<=b)
+
+% Grafica de la segunda celda
+
+subplot(2,1,2)
+solve(x^+a<=b)
+×=[0:4]
+plot(x,x)
