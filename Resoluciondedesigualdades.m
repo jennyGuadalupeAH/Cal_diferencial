@@ -35,7 +35,6 @@ b=6;
 syms x
 % Grafica de la segunda celda
 subplot(2,2,2)
-plot(x,x)
 disp('.')
 solve(x^2+a<b)
 x=[-2:2]
