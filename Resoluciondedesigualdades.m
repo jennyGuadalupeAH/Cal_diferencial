@@ -51,9 +51,9 @@ b=3;
 syms x
 solve(x^+a<=b)
 
-% Grafica de la segunda celda
+% Grafica de la tercera celda
 
 subplot(2,1,2)
 solve(x^+a<=b)
-×=[0:4]
+x=[0:4]
 plot(x,x)
