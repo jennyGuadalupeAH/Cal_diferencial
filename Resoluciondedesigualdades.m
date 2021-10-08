@@ -40,3 +40,16 @@ disp('.')
 solve(x^2+a<b)
 x=[-2:2]
 plot(x,x)
+
+%inecuacion de segundo grado con valor absoluto
+'(inecuaciones de  segundo  grado  con valor absoluto)'
+disp ('3*x>=x^+4')
+a=3;
+b=14;
+pkg load symbolic
+syms x
+solve (a*x>=x^+b)
+x=[0:4]
+%grafica de la tercera celda 
+subplot(2,1,2)
+plot(x,x)
