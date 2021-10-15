@@ -61,8 +61,11 @@ resr = fminbnd (ar,0,1)
 plot(r,y);
 
 % titulo
+
 title('Minimo material r=-4.7622');
+
 % Etiqueta para x 
 xlabel('Min r=-4.7622')
+
 % Etiqueta para y 
 ylabel('Min y=4.7622')
