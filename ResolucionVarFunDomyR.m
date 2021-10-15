@@ -3,12 +3,12 @@
 %Descripcion    :Actividad para resolver problema
 %Autor          :Jennifer Guadalupe Angeles, Diana Citlali  Espinosa Reyes y  Roxana Rubi Miranda Cruz 
 %Date           :14102021
-%Vercion        :1
+% Versión : 1
 %Nota           :Reqiere la aplicacion octave  
 
 pkg load symbolic
 syms x
-
+clear
 disp('3.- La barra de margarina.')
 
 % Volumen prisma rectangular
